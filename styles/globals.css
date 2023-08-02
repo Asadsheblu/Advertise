@@ -1,9 +1,13 @@
+/* Google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Barlow&family=Dancing+Script:wght@700&family=Fasthand&family=Montserrat&family=Playfair+Display&family=Poppins&family=Roboto&family=Roboto+Condensed&display=swap');
+
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  width: 100vw;
+  overflow-x: hidden;
 }
 
 a {
@@ -14,3 +18,69 @@ a {
 * {
   box-sizing: border-box;
 }
+/* Navbar */
+.nav-menu{
+  font-size: 14px;
+  font-weight: bold;
+}
+.nav-menu:hover{
+  border-bottom: 2px solid sandybrown;
+}
+/* Banner */
+.banner{
+  background-image: url('../public/images/banner-1.jpg');
+  background-size: cover;
+  height: 90vh;
+  width: 100vw;
+  background-position: 50% center;
+  background-repeat: no-repeat;
+}
+.headline{
+  padding-top: 200px;
+  
+}
+@media only screen and (max-width: 600px){
+  .banner {
+    height: 286px;
+    width: 100vw;
+}
+.headline{
+  padding-top: 80px;
+}
+}
+/* about */
+.about-headline{
+  font-size: 29px;
+  letter-spacing: 0;
+  color: #222222;
+  border-bottom: 3px solid;
+}
+
+ 
+.abt-left-thumb {
+  display: block;
+  position: relative;
+  z-index: 1;
+  box-shadow: 0px 0px 21px rgba(0,0,0,0.3);
+}
+.social-icon{
+  color: black;
+}
+.social-icon:hover{
+color: blue;
+}
+/* services */
+.service-card:hover{
+    background-color: #f9f9f9;
+}
+/* Contact */
+
+.contact-bg{
+  background-color:#222222;
+}
+/*Footer*/
+.footer{
+  background-image:  linear-gradient(0deg, rgba(78, 18, 173, 0.54), rgba(46, 128, 196, 0.69)),url('/images/All-Points-Movers-LLC-f-bg.png')
+    
+} 
+
